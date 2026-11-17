@@ -1,0 +1,205 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>V5 美股完整報告 | 2026-11-16</title>
+    <style>
+    :root{font-family:system-ui,"Noto Sans TC",sans-serif;color:#1d2939;background:#f4f6f9}
+    body{max-width:1100px;margin:0 auto;padding:24px}h1{margin-bottom:4px}
+    .muted{color:#667085}.card,section{background:white;border-radius:12px;padding:20px;margin:18px 0;box-shadow:0 2px 12px #0000000c}
+    table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:10px;border-bottom:1px solid #e5e7eb;text-align:left}
+    .scroll{overflow-x:auto}.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin:16px 0}
+    .metrics div{background:#f3f6fa;border-radius:8px;padding:12px;font-size:13px}
+    strong{display:block;font-size:17px;margin-top:4px}.tag{font-size:12px;background:#e6eefc;padding:5px 9px;border-radius:20px}
+    .pass{color:#176b45}.fail{color:#b42318}li{padding:3px 0}.warning{color:#b54708;font-weight:600}
+    summary{cursor:pointer}nav a{margin-right:12px;color:#2453a5}
+    </style></head><body>
+    <h1>V5 美股完整技術報告</h1><p class="muted">交易日 2026-11-16 · 策略 V5-MA50-MA10-SLOPE · 資料已驗證：True</p>
+    <p>注意：此為已完成交易日收盤資料，不是即時行情；資料不含即時新聞、財報或估值分析。</p>
+    <section><h2>策略摘要</h2>
+    <p><b>MA50 主策略 Top5：</b>AAPL</p>
+    <p><b>MA10 提前進場：</b>AMD</p>
+    <p>MA10 必須高於前一交易日；MA50 必須不低於五個交易日前。這不等同於當日股價上漲或已恢復 MA50 主趨勢。</p>
+    <p>主策略週調整，單檔目標20%；提前進場單檔上限總資產10%。SBET、NVDQ 僅追蹤；QQQ 為 RS63 基準。</p></section>
+    <section><h2>完整技術掃描（20 檔可計算標的）</h2><p>展開每檔即可查看策略條件是否通過。</p></section>
+    <article class="card" id="AAPL">
+        <h3>AAPL <span class="tag">MA50 Top5</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$352.78</strong></div><div>MA10<strong>$348.51</strong></div><div>MA50<strong>$339.66</strong></div>
+        <div>RS63<strong>+21.47%</strong></div><div>RSI14<strong>57.1</strong></div>
+        <div>MACD 柱<strong>+0.717</strong></div><div>成交量比<strong>0.95x</strong></div>
+        <div>ATR14<strong>$8.03</strong></div></div>
+        <p>MA10：347.066 → 348.512（+1.446）；
+        MA50 五日：336.612 → 339.661（+3.048）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='pass'>✓ Close&gt;MA50</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="ALAB">
+        <h3>ALAB <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$202.34</strong></div><div>MA10<strong>$214.30</strong></div><div>MA50<strong>$292.10</strong></div>
+        <div>RS63<strong>-25.64%</strong></div><div>RSI14<strong>35.8</strong></div>
+        <div>MACD 柱<strong>-0.346</strong></div><div>成交量比<strong>0.92x</strong></div>
+        <div>ATR14<strong>$23.85</strong></div></div>
+        <p>MA10：217.032 → 214.299（-2.733）；
+        MA50 五日：299.008 → 292.105（-6.904）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="AMD">
+        <h3>AMD <span class="tag">MA10 提前進場</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$504.28</strong></div><div>MA10<strong>$502.64</strong></div><div>MA50<strong>$555.09</strong></div>
+        <div>RS63<strong>+11.78%</strong></div><div>RSI14<strong>46.7</strong></div>
+        <div>MACD 柱<strong>+5.373</strong></div><div>成交量比<strong>1.03x</strong></div>
+        <div>ATR14<strong>$41.28</strong></div></div>
+        <p>MA10：498.901 → 502.645（+3.744）；
+        MA50 五日：547.674 → 555.086（+7.413）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='pass'>✓ Close&gt;MA10</li><li class='pass'>✓ Close&lt;=MA50</li><li class='pass'>✓ MA10 rising</li><li class='pass'>✓ MA50 5-session slope &gt;= 0</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="AMP">
+        <h3>AMP <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$514.06</strong></div><div>MA10<strong>$514.17</strong></div><div>MA50<strong>$508.71</strong></div>
+        <div>RS63<strong>-0.57%</strong></div><div>RSI14<strong>53.7</strong></div>
+        <div>MACD 柱<strong>+2.472</strong></div><div>成交量比<strong>0.76x</strong></div>
+        <div>ATR14<strong>$13.69</strong></div></div>
+        <p>MA10：513.031 → 514.171（+1.140）；
+        MA50 五日：512.250 → 508.707（-3.544）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='pass'>✓ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="AMZN">
+        <h3>AMZN <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$257.75</strong></div><div>MA10<strong>$263.21</strong></div><div>MA50<strong>$254.80</strong></div>
+        <div>RS63<strong>+7.02%</strong></div><div>RSI14<strong>49.6</strong></div>
+        <div>MACD 柱<strong>+0.892</strong></div><div>成交量比<strong>0.95x</strong></div>
+        <div>ATR14<strong>$9.15</strong></div></div>
+        <p>MA10：261.993 → 263.205（+1.212）；
+        MA50 五日：253.960 → 254.796（+0.836）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='pass'>✓ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="CRCL">
+        <h3>CRCL <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$57.65</strong></div><div>MA10<strong>$67.20</strong></div><div>MA50<strong>$81.79</strong></div>
+        <div>RS63<strong>-11.95%</strong></div><div>RSI14<strong>27.9</strong></div>
+        <div>MACD 柱<strong>-1.485</strong></div><div>成交量比<strong>1.07x</strong></div>
+        <div>ATR14<strong>$5.12</strong></div></div>
+        <p>MA10：68.646 → 67.203（-1.443）；
+        MA50 五日：85.054 → 81.790（-3.264）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="ETHA">
+        <h3>ETHA <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$41.13</strong></div><div>MA10<strong>$47.99</strong></div><div>MA50<strong>$55.08</strong></div>
+        <div>RS63<strong>+2.62%</strong></div><div>RSI14<strong>24.9</strong></div>
+        <div>MACD 柱<strong>-0.928</strong></div><div>成交量比<strong>1.00x</strong></div>
+        <div>ATR14<strong>$2.18</strong></div></div>
+        <p>MA10：48.953 → 47.992（-0.961）；
+        MA50 五日：56.149 → 55.081（-1.068）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="GOOG">
+        <h3>GOOG <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$281.26</strong></div><div>MA10<strong>$286.19</strong></div><div>MA50<strong>$324.03</strong></div>
+        <div>RS63<strong>-9.85%</strong></div><div>RSI14<strong>33.5</strong></div>
+        <div>MACD 柱<strong>+0.871</strong></div><div>成交量比<strong>0.79x</strong></div>
+        <div>ATR14<strong>$10.27</strong></div></div>
+        <p>MA10：285.871 → 286.193（+0.322）；
+        MA50 五日：328.631 → 324.030（-4.601）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="GRMN">
+        <h3>GRMN <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$279.67</strong></div><div>MA10<strong>$285.58</strong></div><div>MA50<strong>$282.53</strong></div>
+        <div>RS63<strong>+2.05%</strong></div><div>RSI14<strong>46.4</strong></div>
+        <div>MACD 柱<strong>-0.179</strong></div><div>成交量比<strong>0.74x</strong></div>
+        <div>ATR14<strong>$9.33</strong></div></div>
+        <p>MA10：285.045 → 285.583（+0.538）；
+        MA50 五日：281.593 → 282.535（+0.942）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="MSFT">
+        <h3>MSFT <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$517.99</strong></div><div>MA10<strong>$530.77</strong></div><div>MA50<strong>$519.36</strong></div>
+        <div>RS63<strong>+15.43%</strong></div><div>RSI14<strong>46.4</strong></div>
+        <div>MACD 柱<strong>-2.277</strong></div><div>成交量比<strong>1.13x</strong></div>
+        <div>ATR14<strong>$14.93</strong></div></div>
+        <p>MA10：529.679 → 530.766（+1.087）；
+        MA50 五日：517.279 → 519.363（+2.084）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="MSTR">
+        <h3>MSTR <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$103.03</strong></div><div>MA10<strong>$123.45</strong></div><div>MA50<strong>$142.47</strong></div>
+        <div>RS63<strong>+19.04%</strong></div><div>RSI14<strong>28.7</strong></div>
+        <div>MACD 柱<strong>-3.179</strong></div><div>成交量比<strong>1.22x</strong></div>
+        <div>ATR14<strong>$8.91</strong></div></div>
+        <p>MA10：126.220 → 123.447（-2.773）；
+        MA50 五日：144.392 → 142.469（-1.923）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="MU">
+        <h3>MU <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$719.02</strong></div><div>MA10<strong>$756.21</strong></div><div>MA50<strong>$937.74</strong></div>
+        <div>RS63<strong>-15.88%</strong></div><div>RSI14<strong>38.0</strong></div>
+        <div>MACD 柱<strong>-2.839</strong></div><div>成交量比<strong>0.86x</strong></div>
+        <div>ATR14<strong>$59.18</strong></div></div>
+        <p>MA10：767.662 → 756.205（-11.457）；
+        MA50 五日：957.538 → 937.738（-19.801）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="NVDA">
+        <h3>NVDA <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$156.14</strong></div><div>MA10<strong>$178.15</strong></div><div>MA50<strong>$213.15</strong></div>
+        <div>RS63<strong>-21.18%</strong></div><div>RSI14<strong>22.7</strong></div>
+        <div>MACD 柱<strong>-4.218</strong></div><div>成交量比<strong>1.57x</strong></div>
+        <div>ATR14<strong>$9.85</strong></div></div>
+        <p>MA10：182.745 → 178.153（-4.592）；
+        MA50 五日：219.000 → 213.153（-5.847）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="NVDL">
+        <h3>NVDL <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$16.35</strong></div><div>MA10<strong>$21.73</strong></div><div>MA50<strong>$32.05</strong></div>
+        <div>RS63<strong>-45.50%</strong></div><div>RSI14<strong>22.8</strong></div>
+        <div>MACD 柱<strong>-1.055</strong></div><div>成交量比<strong>1.65x</strong></div>
+        <div>ATR14<strong>$2.58</strong></div></div>
+        <p>MA10：22.924 → 21.735（-1.189）；
+        MA50 五日：33.779 → 32.046（-1.733）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="SMCI">
+        <h3>SMCI <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$25.02</strong></div><div>MA10<strong>$28.25</strong></div><div>MA50<strong>$36.25</strong></div>
+        <div>RS63<strong>-25.43%</strong></div><div>RSI14<strong>33.1</strong></div>
+        <div>MACD 柱<strong>-0.349</strong></div><div>成交量比<strong>0.70x</strong></div>
+        <div>ATR14<strong>$2.58</strong></div></div>
+        <p>MA10：28.794 → 28.253（-0.542）；
+        MA50 五日：37.273 → 36.245（-1.027）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="TEM">
+        <h3>TEM <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$64.76</strong></div><div>MA10<strong>$75.66</strong></div><div>MA50<strong>$72.84</strong></div>
+        <div>RS63<strong>+38.88%</strong></div><div>RSI14<strong>41.3</strong></div>
+        <div>MACD 柱<strong>-0.806</strong></div><div>成交量比<strong>0.76x</strong></div>
+        <div>ATR14<strong>$6.85</strong></div></div>
+        <p>MA10：77.027 → 75.655（-1.372）；
+        MA50 五日：71.728 → 72.841（+1.114）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="TSLA">
+        <h3>TSLA <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$379.74</strong></div><div>MA10<strong>$380.17</strong></div><div>MA50<strong>$375.25</strong></div>
+        <div>RS63<strong>+20.40%</strong></div><div>RSI14<strong>49.5</strong></div>
+        <div>MACD 柱<strong>-0.634</strong></div><div>成交量比<strong>0.75x</strong></div>
+        <div>ATR14<strong>$16.56</strong></div></div>
+        <p>MA10：382.576 → 380.168（-2.408）；
+        MA50 五日：372.723 → 375.254（+2.531）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='pass'>✓ Close&gt;MA50</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="TSM">
+        <h3>TSM <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$373.45</strong></div><div>MA10<strong>$390.52</strong></div><div>MA50<strong>$428.86</strong></div>
+        <div>RS63<strong>-1.75%</strong></div><div>RSI14<strong>38.7</strong></div>
+        <div>MACD 柱<strong>-0.661</strong></div><div>成交量比<strong>1.33x</strong></div>
+        <div>ATR14<strong>$17.76</strong></div></div>
+        <p>MA10：393.039 → 390.521（-2.518）；
+        MA50 五日：430.819 → 428.864（-1.954）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="VOO">
+        <h3>VOO <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$680.26</strong></div><div>MA10<strong>$689.76</strong></div><div>MA50<strong>$701.83</strong></div>
+        <div>RS63<strong>+4.36%</strong></div><div>RSI14<strong>40.4</strong></div>
+        <div>MACD 柱<strong>-0.725</strong></div><div>成交量比<strong>0.90x</strong></div>
+        <div>ATR14<strong>$10.22</strong></div></div>
+        <p>MA10：690.870 → 689.764（-1.106）；
+        MA50 五日：703.044 → 701.829（-1.214）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article><article class="card" id="VRT">
+        <h3>VRT <span class="tag">未入選</span></h3>
+        <div class="metrics">
+        <div>收盤<strong>$188.67</strong></div><div>MA10<strong>$200.27</strong></div><div>MA50<strong>$229.47</strong></div>
+        <div>RS63<strong>-23.08%</strong></div><div>RSI14<strong>41.0</strong></div>
+        <div>MACD 柱<strong>-0.298</strong></div><div>成交量比<strong>0.84x</strong></div>
+        <div>ATR14<strong>$17.10</strong></div></div>
+        <p>MA10：203.826 → 200.269（-3.557）；
+        MA50 五日：235.852 → 229.467（-6.386）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details></article>
+    <section><h2>限制與風險</h2><p>價格採 Tiingo 調整後收盤價；實際券商價格、公司行動及稅費可能不同。技術訊號不是下單指令。MA10/MA50 斜率可能與單日漲跌方向不同。未納入新聞、基本面或盤中價格。</p>
+    <p>本報告由 GitHub Actions 產生，無需付費 AI 服務。</p></section></body></html>
