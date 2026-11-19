@@ -1,6 +1,6 @@
 <!doctype html><html lang="zh-Hant"><head><meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>V5 美股完整報告 | 2026-11-18</title>
+    <title>V5 美股完整報告 | 2026-11-19</title>
     <style>
     :root{font-family:system-ui,"Noto Sans TC",sans-serif;color:#1d2939;background:#f4f6f9}
     body{max-width:1100px;margin:0 auto;padding:24px}h1{margin-bottom:4px}
@@ -13,13 +13,13 @@
     .assessment{background:#f5f8fd;border-left:3px solid #6b86b5;padding:12px;border-radius:6px}
     summary{cursor:pointer}.stock-card>summary{list-style-position:inside;padding:4px 0}.stock-content{padding-top:12px}nav a{margin-right:12px;color:#2453a5}
     .stale-warning{border:1px solid #d97706;border-radius:8px;padding:12px;margin:12px 0;color:#fbbf24;background:rgba(217,119,6,.12)} </style></head><body>
-    <h1>V5 美股完整技術報告</h1><p class="muted">交易日 2026-11-18 · 策略 V5-MA50-MA10-ATR2-RATCHET · 資料已驗證：True</p>
-    <p class="muted">HTML 產生時間：2026-11-19 19:07:25（台灣） · 資料掃描 Run ID：44462613715</p>
+    <h1>V5 美股完整技術報告</h1><p class="muted">交易日 2026-11-19 · 策略 V5-MA50-MA10-ATR2-RATCHET · 資料已驗證：True</p>
+    <p class="muted">HTML 產生時間：2026-11-20 07:07:21（台灣） · 資料掃描 Run ID：44625485875</p>
     <p class="muted">資料來源：Tiingo 正式收盤資料。此時間為 HTML 產生時間，非 GitHub Pages 發布完成時間。</p>
     <p>注意：此為已完成交易日收盤資料，不是即時行情；資料不含即時新聞、財報或估值分析。</p>
     <section><h2>策略摘要</h2>
-    <p><b>MA50 主策略 Top5：</b>AAPL, AMZN</p>
-    <p><b>MA10 提前進場：</b>AMD</p>
+    <p><b>MA50 主策略 Top5：</b>無</p>
+    <p><b>MA10 提前進場：</b>無</p>
     <p>MA10 必須高於前一交易日；MA50 必須不低於五個交易日前。這不等同於當日股價上漲或已恢復 MA50 主趨勢。</p>
     <p>主策略週調整，單檔目標20%；提前進場單檔上限總資產10%。SBET、NVDQ 僅追蹤；QQQ 為 RS63 基準。</p></section>
     <details class="card strategy-guide">
@@ -43,185 +43,185 @@
     <section><h2>決策摘要</h2><p>優先順序：MA50 主策略、MA10 提前進場、未入選觀察。入選不等於必須追價。</p><p>無盤中價格、財報及新聞資料，不虛構目標價或預測勝率。</p></section>
     <section><h2>完整技術掃描（20 檔可計算標的）</h2><p>每檔股票預設收合；點選代號展開技術指標、條件、判讀與風險。</p></section>
     <details class="card stock-card" id="AAPL">
-        <summary><b>AAPL</b> <span class="tag">MA50 Top5</span></summary><div class="stock-content">
+        <summary><b>AAPL</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$352.45</strong></div><div>MA10<strong>$350.83</strong></div><div>MA50<strong>$341.12</strong></div>
-        <div>RS63<strong>+20.36%</strong></div><div>RSI14<strong>56.7</strong></div>
-        <div>MACD 柱<strong>+0.307</strong></div><div>成交量比<strong>0.69x</strong></div>
-        <div>ATR14<strong>$7.66</strong></div></div>
-        <p>MA10：350.513 → 350.834（+0.321）；
-        MA50 五日：337.845 → 341.117（+3.272）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='pass'>✓ Close&gt;MA50</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>主策略合格，依週調整規則</p><p><b>證據：</b>中期趨勢已站上 MA50；RS63 優於 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>條件通過但未進入Top5排序</p><div class='assessment'><b>綜合判讀：</b>主策略合格；仍需依週調整規則及執行價格評估，不代表任何價格都適合追買。<p>股價站上 MA10 與 MA50，趨勢位置較強，仍須量能與動能配合。 RSI位於觀察區間。</p><p>距 MA10 +0.46%；距 MA50 +3.32%；ATR/股價 2.17%。 MA10斜率 +0.321；MA50五日斜率 +3.272。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="AMZN">
-        <summary><b>AMZN</b> <span class="tag">MA50 Top5</span></summary><div class="stock-content">
+        <div>收盤<strong>$349.21</strong></div><div>MA10<strong>$351.36</strong></div><div>MA50<strong>$341.57</strong></div>
+        <div>RS63<strong>+22.38%</strong></div><div>RSI14<strong>53.0</strong></div>
+        <div>MACD 柱<strong>-0.056</strong></div><div>成交量比<strong>0.83x</strong></div>
+        <div>ATR14<strong>$7.74</strong></div></div>
+        <p>MA10：350.834 → 351.364（+0.530）；
+        MA50 五日：338.443 → 341.570（+3.126）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='pass'>✓ Close&gt;MA50</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>中期趨勢已站上 MA50；RS63 優於 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI位於觀察區間。</p><p>距 MA10 -0.61%；距 MA50 +2.24%；ATR/股價 2.22%。 MA10斜率 +0.530；MA50五日斜率 +3.126。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="AMD">
+        <summary><b>AMD</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$267.74</strong></div><div>MA10<strong>$264.10</strong></div><div>MA50<strong>$255.12</strong></div>
-        <div>RS63<strong>+10.07%</strong></div><div>RSI14<strong>57.2</strong></div>
-        <div>MACD 柱<strong>+0.566</strong></div><div>成交量比<strong>0.81x</strong></div>
-        <div>ATR14<strong>$9.02</strong></div></div>
-        <p>MA10：263.925 → 264.096（+0.171）；
-        MA50 五日：254.407 → 255.122（+0.714）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='pass'>✓ Close&gt;MA50</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>主策略合格，依週調整規則</p><p><b>證據：</b>中期趨勢已站上 MA50；RS63 優於 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>條件通過但未進入Top5排序</p><div class='assessment'><b>綜合判讀：</b>主策略合格；仍需依週調整規則及執行價格評估，不代表任何價格都適合追買。<p>股價站上 MA10 與 MA50，趨勢位置較強，仍須量能與動能配合。 RSI位於觀察區間。</p><p>距 MA10 +1.38%；距 MA50 +4.95%；ATR/股價 3.37%。 MA10斜率 +0.171；MA50五日斜率 +0.714。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="AMD">
-        <summary><b>AMD</b> <span class="tag">MA10 提前進場</span></summary><div class="stock-content">
-        <div class="metrics">
-        <div>收盤<strong>$530.14</strong></div><div>MA10<strong>$508.73</strong></div><div>MA50<strong>$555.22</strong></div>
-        <div>RS63<strong>+20.07%</strong></div><div>RSI14<strong>50.3</strong></div>
-        <div>MACD 柱<strong>+4.454</strong></div><div>成交量比<strong>0.91x</strong></div>
-        <div>ATR14<strong>$40.33</strong></div></div>
-        <p>MA10：504.596 → 508.732（+4.136）；
-        MA50 五日：550.429 → 555.221（+4.791）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='pass'>✓ Close&gt;MA10</li><li class='pass'>✓ Close&lt;=MA50</li><li class='pass'>✓ MA10 rising</li><li class='pass'>✓ MA50 5-session slope &gt;= 0</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>提前進場候選，須限制部位且未必反轉</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 優於 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50</p><div class='assessment'><b>綜合判讀：</b>符合提前進場條件；仍屬早期訊號，不等於中期反轉已確認。<p>均線斜率向上但價格低於 MA50，不能把均線上升解讀成股價已反轉。 RSI位於觀察區間。</p><p>距 MA10 +4.21%；距 MA50 -4.52%；ATR/股價 7.61%。 MA10斜率 +4.136；MA50五日斜率 +4.791。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="TSLA">
+        <div>收盤<strong>$489.19</strong></div><div>MA10<strong>$517.21</strong></div><div>MA50<strong>$554.93</strong></div>
+        <div>RS63<strong>+12.86%</strong></div><div>RSI14<strong>45.2</strong></div>
+        <div>MACD 柱<strong>+2.128</strong></div><div>成交量比<strong>1.89x</strong></div>
+        <div>ATR14<strong>$43.48</strong></div></div>
+        <p>MA10：508.732 → 517.211（+8.479）；
+        MA50 五日：552.994 → 554.932（+1.938）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 優於 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>均線斜率向上但價格低於 MA50，不能把均線上升解讀成股價已反轉。 RSI位於觀察區間。</p><p>距 MA10 -5.42%；距 MA50 -11.85%；ATR/股價 8.89%。 MA10斜率 +8.479；MA50五日斜率 +1.938。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="TSLA">
         <summary><b>TSLA</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$383.72</strong></div><div>MA10<strong>$378.18</strong></div><div>MA50<strong>$375.81</strong></div>
-        <div>RS63<strong>+18.32%</strong></div><div>RSI14<strong>51.1</strong></div>
-        <div>MACD 柱<strong>-0.847</strong></div><div>成交量比<strong>0.69x</strong></div>
-        <div>ATR14<strong>$15.63</strong></div></div>
-        <p>MA10：378.329 → 378.182（-0.147）；
-        MA50 五日：373.655 → 375.811（+2.156）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='pass'>✓ Close&gt;MA50</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>中期趨勢已站上 MA50；RS63 優於 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>股價站上 MA10 與 MA50，趨勢位置較強，仍須量能與動能配合。 RSI位於觀察區間。</p><p>距 MA10 +1.46%；距 MA50 +2.10%；ATR/股價 4.07%。 MA10斜率 -0.147；MA50五日斜率 +2.156。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="MSFT">
+        <div>收盤<strong>$374.41</strong></div><div>MA10<strong>$381.25</strong></div><div>MA50<strong>$376.03</strong></div>
+        <div>RS63<strong>+12.68%</strong></div><div>RSI14<strong>47.2</strong></div>
+        <div>MACD 柱<strong>-1.378</strong></div><div>成交量比<strong>0.68x</strong></div>
+        <div>ATR14<strong>$16.14</strong></div></div>
+        <p>MA10：378.182 → 381.254（+3.072）；
+        MA50 五日：374.464 → 376.028（+1.565）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 優於 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>均線斜率向上但價格低於 MA50，不能把均線上升解讀成股價已反轉。 RSI位於觀察區間。</p><p>距 MA10 -1.80%；距 MA50 -0.43%；ATR/股價 4.31%。 MA10斜率 +3.072；MA50五日斜率 +1.565。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="MSFT">
         <summary><b>MSFT</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$508.29</strong></div><div>MA10<strong>$524.54</strong></div><div>MA50<strong>$519.94</strong></div>
-        <div>RS63<strong>+12.78%</strong></div><div>RSI14<strong>42.9</strong></div>
-        <div>MACD 柱<strong>-3.530</strong></div><div>成交量比<strong>0.77x</strong></div>
-        <div>ATR14<strong>$14.96</strong></div></div>
-        <p>MA10：529.292 → 524.540（-4.751）；
-        MA50 五日：518.198 → 519.942（+1.743）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 優於 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -3.10%；距 MA50 -2.24%；ATR/股價 2.94%。 MA10斜率 -4.751；MA50五日斜率 +1.743。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="VOO">
+        <div>收盤<strong>$498.30</strong></div><div>MA10<strong>$520.17</strong></div><div>MA50<strong>$519.94</strong></div>
+        <div>RS63<strong>+12.61%</strong></div><div>RSI14<strong>39.3</strong></div>
+        <div>MACD 柱<strong>-4.221</strong></div><div>成交量比<strong>1.02x</strong></div>
+        <div>ATR14<strong>$15.91</strong></div></div>
+        <p>MA10：523.932 → 520.169（-3.763）；
+        MA50 五日：518.681 → 519.937（+1.256）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='pass'>✓ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 優於 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -4.20%；距 MA50 -4.16%；ATR/股價 3.19%。 MA10斜率 -3.763；MA50五日斜率 +1.256。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="AMZN">
+        <summary><b>AMZN</b> <span class="tag">未入選</span></summary><div class="stock-content">
+        <div class="metrics">
+        <div>收盤<strong>$257.37</strong></div><div>MA10<strong>$263.81</strong></div><div>MA50<strong>$255.23</strong></div>
+        <div>RS63<strong>+9.01%</strong></div><div>RSI14<strong>49.0</strong></div>
+        <div>MACD 柱<strong>+0.003</strong></div><div>成交量比<strong>1.03x</strong></div>
+        <div>ATR14<strong>$9.61</strong></div></div>
+        <p>MA10：264.096 → 263.812（-0.284）；
+        MA50 五日：254.656 → 255.231（+0.575）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='pass'>✓ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>中期趨勢已站上 MA50；RS63 優於 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Return63&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI位於觀察區間。</p><p>距 MA10 -2.44%；距 MA50 +0.84%；ATR/股價 3.73%。 MA10斜率 -0.284；MA50五日斜率 +0.575。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="VOO">
         <summary><b>VOO</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$671.31</strong></div><div>MA10<strong>$684.38</strong></div><div>MA50<strong>$700.69</strong></div>
-        <div>RS63<strong>+3.15%</strong></div><div>RSI14<strong>36.6</strong></div>
-        <div>MACD 柱<strong>-2.010</strong></div><div>成交量比<strong>1.34x</strong></div>
-        <div>ATR14<strong>$10.15</strong></div></div>
-        <p>MA10：687.729 → 684.382（-3.347）；
-        MA50 五日：702.770 → 700.693（-2.077）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 優於 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -1.91%；距 MA50 -4.19%；ATR/股價 1.51%。 MA10斜率 -3.347；MA50五日斜率 -2.077。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="GRMN">
+        <div>收盤<strong>$658.01</strong></div><div>MA10<strong>$682.79</strong></div><div>MA50<strong>$699.96</strong></div>
+        <div>RS63<strong>+3.24%</strong></div><div>RSI14<strong>31.5</strong></div>
+        <div>MACD 柱<strong>-3.022</strong></div><div>成交量比<strong>1.63x</strong></div>
+        <div>ATR14<strong>$11.02</strong></div></div>
+        <p>MA10：684.382 → 682.786（-1.596）；
+        MA50 五日：702.658 → 699.956（-2.701）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 優於 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -3.63%；距 MA50 -5.99%；ATR/股價 1.67%。 MA10斜率 -1.596；MA50五日斜率 -2.701。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="GRMN">
         <summary><b>GRMN</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$279.52</strong></div><div>MA10<strong>$285.21</strong></div><div>MA50<strong>$282.75</strong></div>
-        <div>RS63<strong>+2.86%</strong></div><div>RSI14<strong>46.7</strong></div>
-        <div>MACD 柱<strong>-0.787</strong></div><div>成交量比<strong>0.51x</strong></div>
-        <div>ATR14<strong>$8.97</strong></div></div>
-        <p>MA10：286.171 → 285.208（-0.963）；
-        MA50 五日：282.101 → 282.755（+0.654）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 優於 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI位於觀察區間。</p><p>距 MA10 -1.99%；距 MA50 -1.14%；ATR/股價 3.21%。 MA10斜率 -0.963；MA50五日斜率 +0.654。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="TEM">
-        <summary><b>TEM</b> <span class="tag">未入選</span></summary><div class="stock-content">
-        <div class="metrics">
-        <div>收盤<strong>$63.62</strong></div><div>MA10<strong>$73.02</strong></div><div>MA50<strong>$72.87</strong></div>
-        <div>RS63<strong>+2.59%</strong></div><div>RSI14<strong>40.5</strong></div>
-        <div>MACD 柱<strong>-1.631</strong></div><div>成交量比<strong>0.82x</strong></div>
-        <div>ATR14<strong>$6.53</strong></div></div>
-        <p>MA10：74.218 → 73.019（-1.199）；
-        MA50 五日：72.421 → 72.871（+0.450）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 優於 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -12.87%；距 MA50 -12.69%；ATR/股價 10.26%。 MA10斜率 -1.199；MA50五日斜率 +0.450。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="AMP">
+        <div>收盤<strong>$271.78</strong></div><div>MA10<strong>$283.75</strong></div><div>MA50<strong>$282.77</strong></div>
+        <div>RS63<strong>+2.01%</strong></div><div>RSI14<strong>41.1</strong></div>
+        <div>MACD 柱<strong>-1.325</strong></div><div>成交量比<strong>0.56x</strong></div>
+        <div>ATR14<strong>$9.00</strong></div></div>
+        <p>MA10：285.208 → 283.746（-1.462）；
+        MA50 五日：282.324 → 282.767（+0.443）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='pass'>✓ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 優於 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -4.22%；距 MA50 -3.89%；ATR/股價 3.31%。 MA10斜率 -1.462；MA50五日斜率 +0.443。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="AMP">
         <summary><b>AMP</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$501.42</strong></div><div>MA10<strong>$512.00</strong></div><div>MA50<strong>$506.75</strong></div>
-        <div>RS63<strong>-0.91%</strong></div><div>RSI14<strong>47.1</strong></div>
-        <div>MACD 柱<strong>+0.363</strong></div><div>成交量比<strong>0.63x</strong></div>
-        <div>ATR14<strong>$13.11</strong></div></div>
-        <p>MA10：514.425 → 511.999（-2.427）；
-        MA50 五日：511.207 → 506.752（-4.455）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='pass'>✓ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI位於觀察區間。</p><p>距 MA10 -2.07%；距 MA50 -1.05%；ATR/股價 2.61%。 MA10斜率 -2.427；MA50五日斜率 -4.455。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="TSM">
+        <div>收盤<strong>$492.36</strong></div><div>MA10<strong>$510.47</strong></div><div>MA50<strong>$505.56</strong></div>
+        <div>RS63<strong>-1.59%</strong></div><div>RSI14<strong>42.8</strong></div>
+        <div>MACD 柱<strong>-0.902</strong></div><div>成交量比<strong>0.79x</strong></div>
+        <div>ATR14<strong>$13.30</strong></div></div>
+        <p>MA10：511.999 → 510.469（-1.529）；
+        MA50 五日：510.476 → 505.565（-4.911）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -3.55%；距 MA50 -2.61%；ATR/股價 2.70%。 MA10斜率 -1.529；MA50五日斜率 -4.911。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="TSM">
         <summary><b>TSM</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$362.62</strong></div><div>MA10<strong>$382.70</strong></div><div>MA50<strong>$425.87</strong></div>
-        <div>RS63<strong>-5.46%</strong></div><div>RSI14<strong>36.8</strong></div>
-        <div>MACD 柱<strong>-2.782</strong></div><div>成交量比<strong>0.77x</strong></div>
-        <div>ATR14<strong>$17.50</strong></div></div>
-        <p>MA10：386.010 → 382.697（-3.313）；
-        MA50 五日：430.473 → 425.870（-4.603）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -5.25%；距 MA50 -14.85%；ATR/股價 4.83%。 MA10斜率 -3.313；MA50五日斜率 -4.603。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="GOOG">
+        <div>收盤<strong>$352.09</strong></div><div>MA10<strong>$382.60</strong></div><div>MA50<strong>$424.37</strong></div>
+        <div>RS63<strong>-6.24%</strong></div><div>RSI14<strong>34.4</strong></div>
+        <div>MACD 柱<strong>-3.547</strong></div><div>成交量比<strong>1.14x</strong></div>
+        <div>ATR14<strong>$17.94</strong></div></div>
+        <p>MA10：382.697 → 382.596（-0.101）；
+        MA50 五日：430.294 → 424.374（-5.921）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -7.97%；距 MA50 -17.03%；ATR/股價 5.09%。 MA10斜率 -0.101；MA50五日斜率 -5.921。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="TEM">
+        <summary><b>TEM</b> <span class="tag">未入選</span></summary><div class="stock-content">
+        <div class="metrics">
+        <div>收盤<strong>$59.61</strong></div><div>MA10<strong>$71.94</strong></div><div>MA50<strong>$72.89</strong></div>
+        <div>RS63<strong>-8.50%</strong></div><div>RSI14<strong>37.1</strong></div>
+        <div>MACD 柱<strong>-1.979</strong></div><div>成交量比<strong>0.80x</strong></div>
+        <div>ATR14<strong>$6.54</strong></div></div>
+        <p>MA10：73.019 → 71.937（-1.082）；
+        MA50 五日：72.700 → 72.888（+0.189）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -17.14%；距 MA50 -18.22%；ATR/股價 10.97%。 MA10斜率 -1.082；MA50五日斜率 +0.189。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="GOOG">
         <summary><b>GOOG</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$279.20</strong></div><div>MA10<strong>$285.32</strong></div><div>MA50<strong>$321.89</strong></div>
-        <div>RS63<strong>-10.25%</strong></div><div>RSI14<strong>33.4</strong></div>
-        <div>MACD 柱<strong>+0.533</strong></div><div>成交量比<strong>0.77x</strong></div>
-        <div>ATR14<strong>$9.61</strong></div></div>
-        <p>MA10：286.126 → 285.316（-0.810）；
-        MA50 五日：326.802 → 321.890（-4.911）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -2.14%；距 MA50 -13.26%；ATR/股價 3.44%。 MA10斜率 -0.810；MA50五日斜率 -4.911。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="MSTR">
-        <summary><b>MSTR</b> <span class="tag">未入選</span></summary><div class="stock-content">
-        <div class="metrics">
-        <div>收盤<strong>$90.32</strong></div><div>MA10<strong>$114.31</strong></div><div>MA50<strong>$140.82</strong></div>
-        <div>RS63<strong>-12.50%</strong></div><div>RSI14<strong>24.0</strong></div>
-        <div>MACD 柱<strong>-4.156</strong></div><div>成交量比<strong>1.40x</strong></div>
-        <div>ATR14<strong>$8.62</strong></div></div>
-        <p>MA10：119.534 → 114.312（-5.222）；
-        MA50 五日：144.104 → 140.821（-3.283）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -20.99%；距 MA50 -35.86%；ATR/股價 9.55%。 MA10斜率 -5.222；MA50五日斜率 -3.283。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="ETHA">
-        <summary><b>ETHA</b> <span class="tag">未入選</span></summary><div class="stock-content">
-        <div class="metrics">
-        <div>收盤<strong>$39.58</strong></div><div>MA10<strong>$45.36</strong></div><div>MA50<strong>$54.45</strong></div>
-        <div>RS63<strong>-17.69%</strong></div><div>RSI14<strong>23.0</strong></div>
-        <div>MACD 柱<strong>-1.047</strong></div><div>成交量比<strong>1.11x</strong></div>
-        <div>ATR14<strong>$2.11</strong></div></div>
-        <p>MA10：46.879 → 45.363（-1.516）；
-        MA50 五日：55.803 → 54.448（-1.355）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -12.75%；距 MA50 -27.31%；ATR/股價 5.33%。 MA10斜率 -1.516；MA50五日斜率 -1.355。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="ALAB">
+        <div>收盤<strong>$271.02</strong></div><div>MA10<strong>$284.24</strong></div><div>MA50<strong>$320.70</strong></div>
+        <div>RS63<strong>-11.15%</strong></div><div>RSI14<strong>29.6</strong></div>
+        <div>MACD 柱<strong>+0.091</strong></div><div>成交量比<strong>1.02x</strong></div>
+        <div>ATR14<strong>$10.46</strong></div></div>
+        <p>MA10：285.316 → 284.244（-1.072）；
+        MA50 五日：326.037 → 320.703（-5.334）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -4.65%；距 MA50 -15.49%；ATR/股價 3.86%。 MA10斜率 -1.072；MA50五日斜率 -5.334。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="ALAB">
         <summary><b>ALAB</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$216.75</strong></div><div>MA10<strong>$211.44</strong></div><div>MA50<strong>$288.88</strong></div>
-        <div>RS63<strong>-18.25%</strong></div><div>RSI14<strong>40.7</strong></div>
-        <div>MACD 柱<strong>+1.187</strong></div><div>成交量比<strong>0.88x</strong></div>
-        <div>ATR14<strong>$22.89</strong></div></div>
-        <p>MA10：212.097 → 211.445（-0.652）；
-        MA50 五日：296.412 → 288.884（-7.529）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 +2.51%；距 MA50 -24.97%；ATR/股價 10.56%。 MA10斜率 -0.652；MA50五日斜率 -7.529。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="VRT">
-        <summary><b>VRT</b> <span class="tag">未入選</span></summary><div class="stock-content">
+        <div>收盤<strong>$211.60</strong></div><div>MA10<strong>$214.66</strong></div><div>MA50<strong>$287.43</strong></div>
+        <div>RS63<strong>-16.25%</strong></div><div>RSI14<strong>39.5</strong></div>
+        <div>MACD 柱<strong>+1.599</strong></div><div>成交量比<strong>0.92x</strong></div>
+        <div>ATR14<strong>$23.31</strong></div></div>
+        <p>MA10：211.445 → 214.658（+3.213）；
+        MA50 五日：295.486 → 287.425（-8.060）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='pass'>✓ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -1.42%；距 MA50 -26.38%；ATR/股價 11.02%。 MA10斜率 +3.213；MA50五日斜率 -8.060。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="ETHA">
+        <summary><b>ETHA</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$194.48</strong></div><div>MA10<strong>$194.60</strong></div><div>MA50<strong>$226.09</strong></div>
-        <div>RS63<strong>-19.35%</strong></div><div>RSI14<strong>43.5</strong></div>
-        <div>MACD 柱<strong>-0.279</strong></div><div>成交量比<strong>0.51x</strong></div>
-        <div>ATR14<strong>$16.33</strong></div></div>
-        <p>MA10：195.709 → 194.602（-1.107）；
-        MA50 五日：233.576 → 226.092（-7.484）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -0.06%；距 MA50 -13.98%；ATR/股價 8.39%。 MA10斜率 -1.107；MA50五日斜率 -7.484。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="MU">
+        <div>收盤<strong>$39.74</strong></div><div>MA10<strong>$44.26</strong></div><div>MA50<strong>$54.13</strong></div>
+        <div>RS63<strong>-17.88%</strong></div><div>RSI14<strong>23.6</strong></div>
+        <div>MACD 柱<strong>-0.984</strong></div><div>成交量比<strong>1.34x</strong></div>
+        <div>ATR14<strong>$2.06</strong></div></div>
+        <p>MA10：45.363 → 44.260（-1.103）；
+        MA50 五日：55.631 → 54.129（-1.502）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價未達高波動警戒值</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -10.21%；距 MA50 -26.58%；ATR/股價 5.19%。 MA10斜率 -1.103；MA50五日斜率 -1.502。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="MSTR">
+        <summary><b>MSTR</b> <span class="tag">未入選</span></summary><div class="stock-content">
+        <div class="metrics">
+        <div>收盤<strong>$86.13</strong></div><div>MA10<strong>$110.00</strong></div><div>MA50<strong>$139.97</strong></div>
+        <div>RS63<strong>-18.28%</strong></div><div>RSI14<strong>22.7</strong></div>
+        <div>MACD 柱<strong>-4.426</strong></div><div>成交量比<strong>1.30x</strong></div>
+        <div>ATR14<strong>$8.57</strong></div></div>
+        <p>MA10：114.312 → 109.995（-4.317）；
+        MA50 五日：143.928 → 139.972（-3.956）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -21.70%；距 MA50 -38.47%；ATR/股價 9.95%。 MA10斜率 -4.317；MA50五日斜率 -3.956。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="MU">
         <summary><b>MU</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$705.27</strong></div><div>MA10<strong>$732.94</strong></div><div>MA50<strong>$925.54</strong></div>
-        <div>RS63<strong>-20.46%</strong></div><div>RSI14<strong>37.0</strong></div>
-        <div>MACD 柱<strong>-3.699</strong></div><div>成交量比<strong>0.86x</strong></div>
-        <div>ATR14<strong>$57.56</strong></div></div>
-        <p>MA10：741.937 → 732.941（-8.996）；
-        MA50 五日：950.429 → 925.537（-24.892）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -3.78%；距 MA50 -23.80%；ATR/股價 8.16%。 MA10斜率 -8.996；MA50五日斜率 -24.892。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="NVDA">
+        <div>收盤<strong>$690.44</strong></div><div>MA10<strong>$736.35</strong></div><div>MA50<strong>$919.80</strong></div>
+        <div>RS63<strong>-19.08%</strong></div><div>RSI14<strong>35.9</strong></div>
+        <div>MACD 柱<strong>-4.059</strong></div><div>成交量比<strong>1.09x</strong></div>
+        <div>ATR14<strong>$58.50</strong></div></div>
+        <p>MA10：732.941 → 736.346（+3.405）；
+        MA50 五日：947.280 → 919.801（-27.478）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -6.23%；距 MA50 -24.94%；ATR/股價 8.47%。 MA10斜率 +3.405；MA50五日斜率 -27.478。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="VRT">
+        <summary><b>VRT</b> <span class="tag">未入選</span></summary><div class="stock-content">
+        <div class="metrics">
+        <div>收盤<strong>$184.99</strong></div><div>MA10<strong>$195.43</strong></div><div>MA50<strong>$224.83</strong></div>
+        <div>RS63<strong>-19.87%</strong></div><div>RSI14<strong>40.4</strong></div>
+        <div>MACD 柱<strong>-0.637</strong></div><div>成交量比<strong>0.85x</strong></div>
+        <div>ATR14<strong>$16.42</strong></div></div>
+        <p>MA10：194.602 → 195.428（+0.826）；
+        MA50 五日：232.636 → 224.831（-7.805）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -5.34%；距 MA50 -17.72%；ATR/股價 8.88%。 MA10斜率 +0.826；MA50五日斜率 -7.805。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="NVDA">
         <summary><b>NVDA</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$150.96</strong></div><div>MA10<strong>$168.11</strong></div><div>MA50<strong>$210.30</strong></div>
-        <div>RS63<strong>-23.17%</strong></div><div>RSI14<strong>21.1</strong></div>
-        <div>MACD 柱<strong>-3.827</strong></div><div>成交量比<strong>1.44x</strong></div>
-        <div>ATR14<strong>$9.68</strong></div></div>
-        <p>MA10：173.030 → 168.113（-4.917）；
-        MA50 五日：217.098 → 210.303（-6.794）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -10.20%；距 MA50 -28.22%；ATR/股價 6.41%。 MA10斜率 -4.917；MA50五日斜率 -6.794。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="SMCI">
+        <div>收盤<strong>$145.98</strong></div><div>MA10<strong>$164.55</strong></div><div>MA50<strong>$208.86</strong></div>
+        <div>RS63<strong>-22.44%</strong></div><div>RSI14<strong>19.6</strong></div>
+        <div>MACD 柱<strong>-3.717</strong></div><div>成交量比<strong>1.25x</strong></div>
+        <div>ATR14<strong>$9.88</strong></div></div>
+        <p>MA10：168.113 → 164.551（-3.562）；
+        MA50 五日：215.938 → 208.856（-7.083）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -11.29%；距 MA50 -30.10%；ATR/股價 6.77%。 MA10斜率 -3.562；MA50五日斜率 -7.083。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="SMCI">
         <summary><b>SMCI</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$24.37</strong></div><div>MA10<strong>$27.01</strong></div><div>MA50<strong>$35.63</strong></div>
-        <div>RS63<strong>-26.09%</strong></div><div>RSI14<strong>32.5</strong></div>
-        <div>MACD 柱<strong>-0.398</strong></div><div>成交量比<strong>0.55x</strong></div>
-        <div>ATR14<strong>$2.45</strong></div></div>
-        <p>MA10：27.528 → 27.005（-0.523）；
-        MA50 五日：36.957 → 35.632（-1.325）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -9.76%；距 MA50 -31.61%；ATR/股價 10.04%。 MA10斜率 -0.523；MA50五日斜率 -1.325。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="CRCL">
+        <div>收盤<strong>$23.84</strong></div><div>MA10<strong>$26.68</strong></div><div>MA50<strong>$35.36</strong></div>
+        <div>RS63<strong>-26.49%</strong></div><div>RSI14<strong>31.6</strong></div>
+        <div>MACD 柱<strong>-0.376</strong></div><div>成交量比<strong>0.78x</strong></div>
+        <div>ATR14<strong>$2.42</strong></div></div>
+        <p>MA10：27.005 → 26.681（-0.324）；
+        MA50 五日：36.757 → 35.361（-1.396）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -10.65%；距 MA50 -32.58%；ATR/股價 10.16%。 MA10斜率 -0.324；MA50五日斜率 -1.396。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="CRCL">
         <summary><b>CRCL</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$53.31</strong></div><div>MA10<strong>$62.86</strong></div><div>MA50<strong>$80.17</strong></div>
-        <div>RS63<strong>-29.14%</strong></div><div>RSI14<strong>24.9</strong></div>
-        <div>MACD 柱<strong>-1.747</strong></div><div>成交量比<strong>0.75x</strong></div>
-        <div>ATR14<strong>$4.90</strong></div></div>
-        <p>MA10：65.144 → 62.863（-2.281）；
-        MA50 五日：83.995 → 80.166（-3.830）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -15.20%；距 MA50 -33.50%；ATR/股價 9.19%。 MA10斜率 -2.281；MA50五日斜率 -3.830。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="NVDL">
+        <div>收盤<strong>$51.88</strong></div><div>MA10<strong>$61.10</strong></div><div>MA50<strong>$79.40</strong></div>
+        <div>RS63<strong>-31.54%</strong></div><div>RSI14<strong>23.9</strong></div>
+        <div>MACD 柱<strong>-1.743</strong></div><div>成交量比<strong>0.87x</strong></div>
+        <div>ATR14<strong>$4.89</strong></div></div>
+        <p>MA10：62.863 → 61.103（-1.760）；
+        MA50 五日：83.499 → 79.397（-4.102）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能未明顯擴張</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -15.09%；距 MA50 -34.66%；ATR/股價 9.43%。 MA10斜率 -1.760；MA50五日斜率 -4.102。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details><details class="card stock-card" id="NVDL">
         <summary><b>NVDL</b> <span class="tag">未入選</span></summary><div class="stock-content">
         <div class="metrics">
-        <div>收盤<strong>$15.24</strong></div><div>MA10<strong>$19.17</strong></div><div>MA50<strong>$31.24</strong></div>
-        <div>RS63<strong>-48.09%</strong></div><div>RSI14<strong>21.5</strong></div>
-        <div>MACD 柱<strong>-0.895</strong></div><div>成交量比<strong>1.84x</strong></div>
-        <div>ATR14<strong>$2.46</strong></div></div>
-        <p>MA10：20.414 → 19.174（-1.240）；
-        MA50 五日：33.203 → 31.241（-1.962）</p>
-        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -20.52%；距 MA50 -51.22%；ATR/股價 16.16%。 MA10斜率 -1.240；MA50五日斜率 -1.962。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details>
+        <div>收盤<strong>$14.25</strong></div><div>MA10<strong>$18.35</strong></div><div>MA50<strong>$30.85</strong></div>
+        <div>RS63<strong>-47.70%</strong></div><div>RSI14<strong>20.3</strong></div>
+        <div>MACD 柱<strong>-0.830</strong></div><div>成交量比<strong>1.50x</strong></div>
+        <div>ATR14<strong>$2.47</strong></div></div>
+        <p>MA10：19.174 → 18.349（-0.825）；
+        MA50 五日：32.857 → 30.848（-2.009）</p>
+        <details><summary>查看完整條件判斷</summary><ul><li class='fail'>✕ Close&gt;MA50</li><li class='fail'>✕ Return63&gt;0</li><li class='fail'>✕ RS63&gt;0</li><li class='fail'>✕ 45&lt;=RSI&lt;=80</li><li class='fail'>✕ MACD_hist&gt;0</li><li class='pass'>✓ Volume&gt;0.5x</li></ul></details><p><b>操作分類：</b>觀察，不符合當前進場條件</p><p><b>證據：</b>仍低於 MA50，反彈尚非中期反轉；RS63 落後 QQQ；量能不低於20日均量</p><p><b>風險：</b>ATR/股價偏高，注意波動</p><p><b>主策略缺口：</b>Close&gt;MA50、Return63&gt;0、RS63&gt;0、45&lt;=RSI&lt;=80、MACD_hist&gt;0</p><div class='assessment'><b>綜合判讀：</b>暫無進場訊號；等待策略條件改善。<p>短中期價格位置尚未同步轉強，避免單憑一項指標判斷。 RSI低於進場區間。</p><p>距 MA10 -22.34%；距 MA50 -53.81%；ATR/股價 17.30%。 MA10斜率 -0.825；MA50五日斜率 -2.009。</p><p class='muted'>此為既定技術條件的解讀，不是經回測驗證的新交易規則。</p></div></div></details>
     <section><h2>限制與風險</h2><p>價格採 Tiingo 調整後收盤價；實際券商價格、公司行動及稅費可能不同。技術訊號不是下單指令。MA10/MA50 斜率可能與單日漲跌方向不同。未納入新聞、基本面或盤中價格。</p>
     <p>本報告由 GitHub Actions 產生，無需付費 AI 服務。</p></section></body></html>
